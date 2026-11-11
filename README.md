@@ -21,7 +21,7 @@ Add the dependency from Maven Central (minSdk 26):
 
 ```kotlin
 dependencies {
-    implementation("io.github.syjdev:pixel-blur-detector:3.0.0")
+    implementation("io.github.syjdev:pixel-blur-detector:3.0.1")
 }
 ```
 
