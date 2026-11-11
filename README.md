@@ -12,6 +12,9 @@ which has the overview, sample results and the demo apps. The iOS SDK,
 model with the same preprocessing, so both platforms produce matching blur maps.
 Please open issues in the [main repository](https://github.com/syjdev/PixelBlurDetector/issues).
 
+For accuracy and model size compared with published defocus blur detectors, see
+[Benchmarks](https://github.com/syjdev/PixelBlurDetector#benchmarks).
+
 ## Installation
 
 Add the dependency from Maven Central (minSdk 26):
@@ -98,6 +101,6 @@ key) and `SIGNING_KEY_PASSWORD`.
 ## License
 
 - **Code**: Apache-2.0. See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
-- **`blur_segmentation_float.tflite`**: trained on the CUHK and DUT-DBD datasets, neither of which
+- **`blur_segmentation_float.tflite`**: trained on the CUHK, DUT-DBD and EBD datasets, none of which
   states a license, so it is **research / non-commercial only** for now. See
   [`MODEL_LICENSE.md`](MODEL_LICENSE.md).
